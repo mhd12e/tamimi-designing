@@ -5,6 +5,7 @@ import { useState, useRef } from "react";
 
 interface FloatingImageProps {
     src: string;
+    alt: string;
     initialX: string;
     initialY: string;
     rotation: number;
@@ -105,7 +106,7 @@ const GhostTrail = ({ x, y, rotation, scale, isActive }: {
     );
 };
 
-export function FloatingImage({ src, initialX, initialY, rotation, delay, zIndex, onGrab, constraintsRef, isActive }: FloatingImageProps) {
+export function FloatingImage({ src, alt, initialX, initialY, rotation, delay, zIndex, onGrab, constraintsRef, isActive }: FloatingImageProps) {
     const [isDragging, setIsDragging] = useState(false);
     const [hasEntered, setHasEntered] = useState(false);
 
@@ -274,7 +275,7 @@ export function FloatingImage({ src, initialX, initialY, rotation, delay, zIndex
                 >
                     <img
                         src={src}
-                        alt="Printing Showcase"
+                        alt={alt}
                         className="w-full h-full object-cover select-none pointer-events-none"
                         draggable={false}
                         loading="lazy"

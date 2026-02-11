@@ -79,9 +79,9 @@ export function TestimonialsSection() {
                 <MotionSection
                     className="flex flex-col items-center justify-center max-w-2xl mx-auto text-center mb-16"
                 >
-                    <h2 className="text-base font-semibold leading-7 text-brand-primary uppercase tracking-wide">
+                    <span className="text-base font-semibold font-mono leading-7 text-brand-primary uppercase tracking-wide">
                         Client Stories
-                    </h2>
+                    </span>
                     <h2 className="mt-2 text-3xl font-bold tracking-tight text-neutral-900 sm:text-4xl">
                         What Our Clients Say
                     </h2>

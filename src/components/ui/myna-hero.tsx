@@ -20,18 +20,18 @@ import { Container } from "@/components/shared/container";
 import { FloatingImage } from "@/components/hero/floating-image";
 
 const floatingImages = [
-    // Top Left - OK
-    { src: "https://picsum.photos/id/10/400/600", x: "5%", y: "15%", rotate: -12, delay: 2.6 },
-    // Top Right - OK
-    { src: "https://picsum.photos/id/20/400/600", x: "80%", y: "10%", rotate: 8, delay: 2.8 },
-    // Middle Left - Moved UP from 45% -> 35%
-    { src: "https://picsum.photos/id/30/400/600", x: "3%", y: "35%", rotate: -8, delay: 3.0 },
-    // Middle Right - Moved UP from 45% -> 35%
-    { src: "https://picsum.photos/id/40/400/600", x: "82%", y: "35%", rotate: 12, delay: 3.2 },
-    // Bottom Left - Moved UP from 65% -> 55%
-    { src: "https://picsum.photos/id/50/400/600", x: "8%", y: "55%", rotate: 5, delay: 3.4 },
-    // Bottom Right - Moved UP from 68% -> 58%
-    { src: "https://picsum.photos/id/60/400/600", x: "78%", y: "58%", rotate: -15, delay: 3.6 },
+    // Top Left
+    { src: "https://picsum.photos/id/10/400/600", x: "5%", y: "15%", rotate: -12, delay: 2.6, alt: "Luxury Branding Materials" },
+    // Top Right
+    { src: "https://picsum.photos/id/20/400/600", x: "80%", y: "10%", rotate: 8, delay: 2.8, alt: "Premium Corporate Stationery" },
+    // Middle Left
+    { src: "https://picsum.photos/id/30/400/600", x: "3%", y: "35%", rotate: -8, delay: 3.0, alt: "Custom Packaging Solutions" },
+    // Middle Right
+    { src: "https://picsum.photos/id/40/400/600", x: "82%", y: "35%", rotate: 12, delay: 3.2, alt: "High-Quality Business Cards" },
+    // Bottom Left
+    { src: "https://picsum.photos/id/50/400/600", x: "8%", y: "55%", rotate: 5, delay: 3.4, alt: "Urgent Stamp Services" },
+    // Bottom Right
+    { src: "https://picsum.photos/id/60/400/600", x: "78%", y: "58%", rotate: -15, delay: 3.6, alt: "Large Format Printing" },
 ];
 
 export function MynaHero() {
@@ -79,6 +79,7 @@ export function MynaHero() {
                     <FloatingImage
                         key={idx}
                         src={img.src}
+                        alt={img.alt}
                         initialX={img.x}
                         initialY={img.y}
                         rotation={img.rotate}

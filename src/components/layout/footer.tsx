@@ -34,12 +34,14 @@ export function Footer() {
                                 href="https://www.instagram.com/nooralkhanprinting"
                                 target="_blank"
                                 rel="noopener noreferrer"
+                                aria-label="Follow Noor Al Khan Printing on Instagram"
                                 className="h-10 w-10 flex items-center justify-center rounded-full bg-white/5 border border-white/10 hover:bg-brand-primary hover:border-brand-primary hover:text-white transition-all duration-300"
                             >
                                 <Instagram className="h-5 w-5" />
                             </a>
                             <a
                                 href="mailto:info@nooralkhan.com"
+                                aria-label="Email Noor Al Khan Printing"
                                 className="h-10 w-10 flex items-center justify-center rounded-full bg-white/5 border border-white/10 hover:bg-brand-primary hover:border-brand-primary hover:text-white transition-all duration-300"
                             >
                                 <Mail className="h-5 w-5" />
@@ -94,7 +96,10 @@ export function Footer() {
                                 </div>
                                 <div>
                                     <span className="block text-white font-medium mb-1">Visit Us</span>
-                                    <span className="text-sm">Umm Al Thatfa , Rolla,<br />Sharjah</span>
+                                    <address className="not-italic text-sm">
+                                        Umm Al Thatfa, Rolla,<br />
+                                        Sharjah, UAE
+                                    </address>
                                 </div>
                             </li>
                             <li className="flex items-start gap-4 group">

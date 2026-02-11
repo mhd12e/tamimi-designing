@@ -35,9 +35,9 @@ export function ServicesSection() {
                         <h2 className="text-base font-semibold leading-7 text-brand-primary uppercase tracking-wide">
                             Our Capabilities
                         </h2>
-                        <p className="mt-2 text-3xl font-bold tracking-tight text-neutral-900 sm:text-4xl">
+                        <h2 className="mt-2 text-3xl font-bold tracking-tight text-neutral-900 sm:text-4xl">
                             Comprehensive Printing Solutions
-                        </p>
+                        </h2>
                         <p className="mt-6 text-lg leading-8 text-neutral-600">
                             From corporate essentials to large-scale industrial branding.
                         </p>
@@ -74,7 +74,7 @@ export function ServicesSection() {
                                                 <div className="relative w-24 h-24 opacity-90 group-hover:scale-110 group-hover:rotate-3 transition-all duration-500 -mr-4 -mb-4 shadow-sm rounded-xl overflow-hidden border-2 border-white">
                                                     <img
                                                         src={`/services/${service.image}`}
-                                                        alt={service.category}
+                                                        alt={`${service.category} Printing Services`}
                                                         onError={(e) => {
                                                             (e.target as HTMLImageElement).style.display = 'none';
                                                         }}

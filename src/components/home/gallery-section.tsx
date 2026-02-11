@@ -29,6 +29,7 @@ export function GallerySection() {
                         href="https://www.instagram.com/nooralkhanprinting?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
                         target="_blank"
                         rel="noopener noreferrer"
+                        aria-label="Follow Noor Al Khan Printing on Instagram"
                         className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-full shadow-lg shadow-brand-primary/20 text-white bg-brand-primary hover:bg-brand-primary/90 transition-all hover:scale-105"
                     >
                         Follow our Journey
@@ -47,6 +48,7 @@ export function GallerySection() {
                                 href="https://www.instagram.com/nooralkhanprinting?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
                                 target="_blank"
                                 rel="noopener noreferrer"
+                                aria-label="View our work on Instagram"
                                 className="block w-full h-full"
                             >
                                 <img
