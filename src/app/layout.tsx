@@ -48,7 +48,6 @@ export const metadata: Metadata = {
     title: "Al Tamimi Designing | Luxury Packaging & Events",
     description: "Sharjah's premier destination for luxury packaging, event fabrication, and corporate branding.",
     siteName: "Al Tamimi Designing",
-    siteName: "Al Tamimi Designing",
   },
   twitter: {
     card: "summary_large_image",
