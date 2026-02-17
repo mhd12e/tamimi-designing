@@ -60,7 +60,7 @@ export function FindUsSection() {
                                 className="w-full sm:w-auto"
                             >
                                 <Button asChild className="w-full sm:w-auto h-16 px-8 bg-brand-primary hover:bg-brand-primary/95 text-white font-black uppercase tracking-[0.2em] rounded-xl shadow-2xl shadow-brand-primary/20 transition-all flex items-center justify-center gap-4 text-sm group">
-                                    <Link href="https://maps.app.goo.gl/d1DoomcdWRpWtVFi9" target="_blank">
+                                    <Link href="https://maps.app.goo.gl/fggzKxTFUbBHcqfg9" target="_blank">
                                         Get Directions
                                         <div className="bg-white/20 p-1.5 rounded-lg group-hover:translate-x-1 transition-transform">
                                             <Navigation className="h-4 w-4 fill-white" />

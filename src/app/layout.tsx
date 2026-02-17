@@ -13,12 +13,12 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://altamimidesigning.com"), // Assuming domain update or placeholder
+  metadataBase: new URL("https://tamimidesigning.ae"),
   title: {
     default: "Al Tamimi Designing | Luxury Packaging & Event Fabrication UAE",
     template: "%s | Al Tamimi Designing"
   },
-  description: "Premier design and production house in Sharjah. Specializing in luxury rigid boxes, event stages, acrylic signage, and corporate gifting.",
+  description: "Sharjah's premier design and production house. Specializing in luxury rigid boxes, event stages, 3D fabrication, acrylic signage, and corporate gifting.",
   keywords: [
     "packaging design sharjah",
     "event fabrication uae",
@@ -29,7 +29,9 @@ export const metadata: Metadata = {
     "printing press majas 3",
     "wedding invitations uae",
     "custom fabrication uae",
-    "al tamimi designing"
+    "al tamimi designing",
+    "rigid boxes uae",
+    "3d foam cutting"
   ],
   authors: [{ name: "Al Tamimi Designing" }],
   creator: "Al Tamimi Designing",
@@ -42,12 +44,12 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_AE",
-    url: "https://altamimidesigning.com",
+    url: "https://tamimidesigning.ae",
     title: "Al Tamimi Designing | Luxury Packaging & Events",
     description: "Sharjah's premier destination for luxury packaging, event fabrication, and corporate branding.",
     siteName: "Al Tamimi Designing",
     images: [{
-      url: "/og-image.png", // Assuming we might want to add this, or use a placeholder
+      url: "/og-image.png",
       width: 1200,
       height: 630,
       alt: "Al Tamimi Designing Showcase",

@@ -21,17 +21,17 @@ import { FloatingImage } from "@/components/hero/floating-image";
 
 const floatingImages = [
     // Top Left
-    { src: "https://picsum.photos/id/10/400/600", x: "5%", y: "15%", rotate: -12, delay: 2.6, alt: "Luxury Branding Materials" },
+    { src: "/hero/hero-branding.jpg", x: "5%", y: "15%", rotate: -12, delay: 2.6, alt: "Luxury Branding Materials" },
     // Top Right
-    { src: "https://picsum.photos/id/20/400/600", x: "80%", y: "10%", rotate: 8, delay: 2.8, alt: "Premium Corporate Stationery" },
+    { src: "/hero/hero-stationery.jpg", x: "80%", y: "10%", rotate: 8, delay: 2.8, alt: "Premium Corporate Stationery" },
     // Middle Left
-    { src: "https://picsum.photos/id/30/400/600", x: "3%", y: "35%", rotate: -8, delay: 3.0, alt: "Custom Packaging Solutions" },
+    { src: "/hero/hero-packaging.jpg", x: "3%", y: "35%", rotate: -8, delay: 3.0, alt: "Custom Packaging Solutions" },
     // Middle Right
-    { src: "https://picsum.photos/id/40/400/600", x: "82%", y: "35%", rotate: 12, delay: 3.2, alt: "High-Quality Business Cards" },
+    { src: "/hero/hero-fabrication.jpg", x: "82%", y: "35%", rotate: 12, delay: 3.2, alt: "Event Fabrication Showcase" }, // Changed from Business Cards to Fabrication
     // Bottom Left
-    { src: "https://picsum.photos/id/50/400/600", x: "8%", y: "55%", rotate: 5, delay: 3.4, alt: "Urgent Stamp Services" },
+    { src: "/hero/hero-laser.jpg", x: "8%", y: "55%", rotate: 5, delay: 3.4, alt: "Laser Cutting Mastery" }, // Changed from Stamp to Laser
     // Bottom Right
-    { src: "https://picsum.photos/id/60/400/600", x: "78%", y: "58%", rotate: -15, delay: 3.6, alt: "Large Format Printing" },
+    { src: "/hero/hero-printing.jpg", x: "78%", y: "58%", rotate: -15, delay: 3.6, alt: "Modern Printing Technology" }, // Changed from Large Format to Printing
 ];
 
 export function MynaHero() {
