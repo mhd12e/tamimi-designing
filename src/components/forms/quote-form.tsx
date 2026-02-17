@@ -107,11 +107,12 @@ export function QuoteForm() {
                                         <SelectValue placeholder="Select a service..." />
                                     </SelectTrigger>
                                     <SelectContent position="popper" sideOffset={12} align="start">
-                                        <SelectItem value="rubber-stamps">Rubber Stamps</SelectItem>
-                                        <SelectItem value="branding">Branding & Packaging</SelectItem>
-                                        <SelectItem value="stationery">Corporate Stationery</SelectItem>
-                                        <SelectItem value="marketing">Marketing Materials</SelectItem>
-                                        <SelectItem value="promo-gifts">Promotional Gifts</SelectItem>
+                                        <SelectItem value="luxury-packaging">Luxury Packaging</SelectItem>
+                                        <SelectItem value="event-fabrication">Event Fabrication</SelectItem>
+                                        <SelectItem value="corporate-branding">Corporate Branding</SelectItem>
+                                        <SelectItem value="laser-cutting">Laser Cutting</SelectItem>
+                                        <SelectItem value="personalized-occasions">Personalized Occasions</SelectItem>
+                                        <SelectItem value="printing-press">Printing Press</SelectItem>
                                         <SelectItem value="other">Other Specialties</SelectItem>
                                     </SelectContent>
                                 </Select>
@@ -166,7 +167,7 @@ export function QuoteForm() {
                             </Button>
                         </motion.div>
                         <p className="text-center text-neutral-400 text-xs mt-6 uppercase tracking-widest font-medium opacity-50">
-                            Professional service guaranteed • Sharjah, UAE
+                            Professional service guaranteed • Majas 3, Sharjah, UAE
                         </p>
                     </div>
                 </form>

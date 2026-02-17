@@ -16,7 +16,7 @@ const GLOBE_CONFIG: COBEOptions = {
     mapSamples: 16000,
     mapBrightness: 1.2,
     baseColor: [0.85, 0.85, 0.85],
-    markerColor: [220 / 255, 38 / 255, 38 / 255], // Brand Red
+    markerColor: [255 / 255, 215 / 255, 0 / 255], // Brand Gold
     glowColor: [1, 1, 1],
     markers: [
         { location: [25.348766, 55.405403], size: 0.1 }, // Sharjah/Dubai approx

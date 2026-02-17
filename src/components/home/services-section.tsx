@@ -73,7 +73,7 @@ export function ServicesSection() {
                                                 {/* Bottom Right Illustration/Image Preview */}
                                                 <div className="relative w-24 h-24 opacity-90 group-hover:scale-110 group-hover:rotate-3 transition-all duration-500 -mr-4 -mb-4 shadow-sm rounded-xl overflow-hidden border-2 border-white">
                                                     <img
-                                                        src={`/services/${service.image}`}
+                                                        src={`/services/${service.cardImage}`}
                                                         alt={`${service.category} Printing Services`}
                                                         onError={(e) => {
                                                             (e.target as HTMLImageElement).style.display = 'none';
@@ -113,11 +113,11 @@ export function ServicesSection() {
                                             ))}
                                         </div>
 
-                                        <div className="mt-8 mb-8 h-48 sm:h-64 w-full rounded-2xl overflow-hidden relative group">
+                                        <div className="mt-8 mb-8 w-full rounded-2xl overflow-hidden relative group shadow-sm border border-neutral-100">
                                             <img
-                                                src={`/services/${service.image}`}
+                                                src={`/services/${service.drawerImage}`}
                                                 alt={service.category}
-                                                className="object-cover w-full h-full transition-transform duration-700 group-hover:scale-105"
+                                                className="w-full h-auto object-cover transition-transform duration-700 group-hover:scale-105"
                                                 onError={(e) => {
                                                     (e.target as HTMLImageElement).style.display = 'none';
                                                 }}
@@ -147,65 +147,95 @@ export function ServicesSection() {
 
 const services = [
     {
-        category: "Corporate & Office Stationery",
-        shortDescription: "Essential branding tools for your business identity, from stamps to letterheads.",
+        category: "Luxury Packaging",
+        title: "Rigid Boxes & Premium Bags",
+        description: "Custom-manufactured hard boxes and boutique paper bags for high-end product launches and retail.",
+        shortDescription: "Custom rigid boxes and boutique paper bags.",
+        cardImage: "card-packaging.png",
+        drawerImage: "drawer-packaging.png",
+        details: ["Magnetic Closure Boxes", "Gold/Silver Foil Stamping", "Custom Food Packaging", "Premium Shopping Bags"],
         items: [
-            { title: "Rubber Stamps", description: "Urgent self-inking, pre-inked, and laser-engraved stamps ready in minutes. Brands include Trodat, Shiny, and Neo." },
-            { title: "Business Cards", description: "Standard and premium professional cards for corporate identity." },
-            { title: "Letterheads & Envelopes", description: "Custom branded office paper stationery." },
-            { title: "ID Accessories", description: "Lanyards and ID card holders for employee identification." }
+            { title: "Rigid Boxes", description: "High-end magnetic closure and lift-off lid boxes." },
+            { title: "Paper Bags", description: "Premium boutique shopping bags with foil stamping." },
+            { title: "Food Packaging", description: "Custom printed boxes for chocolates, dates, and cakes." }
         ],
-        image: "corporate.png",
         pattern: [[1, 2], [3, 4], [5, 1], [7, 3], [9, 5]] as number[][],
     },
     {
-        category: "Branding, Labels & Packaging",
-        shortDescription: "Premium packaging solutions and custom labels to elevate your product presentation.",
+        category: "Event Fabrication",
+        title: "Stages, Backdrops & Props",
+        description: "Bring your events to life with life-size cutouts, 3D foam props, and themed stage backdrops.",
+        shortDescription: "Life-size cutouts, 3D props, and stage backdrops.",
+        cardImage: "card-fabrication.png",
+        drawerImage: "drawer-fabrication.png",
+        details: ["3D Foam Structures", "Acrylic Stage Signage", "Photo Booth Backdrops", "Themed Cutouts"],
         items: [
-            { title: "Perfume Stickers", description: "Specialized engraved and PVC stickers with gold/silver metallic finishes for cosmetic branding." },
-            { title: "Shopping Bags", description: "Branded paper bags for retail and corporate use." },
-            { title: "Product Decals", description: "Vinyl cutting and sticker printing for general product labeling." }
+            { title: "3D Foam Props", description: "Large scale foam sculptures and letters." },
+            { title: "Stage Backdrops", description: "Themed backgrounds for weddings and events." },
+            { title: "Photo Booths", description: "Custom fabricated photo zones." }
         ],
-        image: "perfume.png",
         pattern: [[0, 1], [2, 5], [4, 2], [6, 4], [8, 0]] as number[][],
     },
     {
-        category: "Marketing & Large Format Advertising",
-        shortDescription: "High-impact visual communication tools for outdoor and indoor advertising.",
+        category: "Corporate Branding",
+        title: "Stationery & Merchandise",
+        description: "Complete business identity solutions from elegant business cards to branded corporate gifts and uniforms.",
+        shortDescription: "Business cards, gifts, and uniforms.",
+        cardImage: "card-branding.png",
+        drawerImage: "drawer-branding.png",
+        details: ["Business Cards & Letterheads", "Roll-up Banners", "Staff Uniforms & Lanyards", "Corporate Gift Sets"],
         items: [
-            { title: "Flyers & Brochures", description: "Tri-fold brochures, leaflets, and handouts for mass marketing." },
-            { title: "Roll-up Banners", description: "Portable standing banners for events and exhibitions." },
-            { title: "Outdoor Signage", description: "Large format vinyl banners and billboard printing." },
-            { title: "Vehicle Graphics", description: "Branding stickers applied to cars and delivery vehicles." },
-            { title: "Advertising Flags", description: "Teardrop and feather flags for outdoor visibility." }
+            { title: "Business Stationery", description: "Cards, letterheads, and envelopes." },
+            { title: "Promotional Gifts", description: "Branded pens, mugs, and notebooks." },
+            { title: "Uniforms", description: "Embroidered shirts and caps." }
         ],
-        image: "flyer.png",
         pattern: [[1, 5], [2, 1], [5, 4], [7, 2], [9, 3]] as number[][],
     },
     {
-        category: "Promotional Gifts & Merchandise",
-        shortDescription: "Customized gifts and apparel to promote your brand and appreciate clients.",
+        category: "Laser Cutting",
+        title: "Precision Acrylic & Wood",
+        description: "Intricate laser cutting and engraving services for signage, decor, and personalized gifts.",
+        shortDescription: "Precision acrylic and wood engraving.",
+        cardImage: "card-laser.png",
+        drawerImage: "drawer-laser.png",
+        details: ["Neon & Acrylic Signs", "Wood Engraving", "Cake Toppers", "Custom Stencils"],
         items: [
-            { title: "Mug Printing", description: "Custom sublimation printing on ceramic mugs." },
-            { title: "Apparel Printing", description: "Custom branding on T-shirts and caps/hats." },
-            { title: "Tech Accessories", description: "Printed USB flash drives and mousepads." },
-            { title: "Souvenirs & Trinkets", description: "Customized keychains, buttons/badges, pens, and table clocks." },
-            { title: "Drinkware", description: "Branded sports water bottles." },
-            { title: "Seasonal Items", description: "Specialty die-cut Eid Money Cards for festive gifting." }
+            { title: "Acrylic Signage", description: "3D letters and lightboxes." },
+            { title: "Wood Engraving", description: "Detailed patterns on wood surfaces." },
+            { title: "Neon Signs", description: "Custom LED neon flex signs." }
         ],
-        image: "mug.png",
         pattern: [[0, 4], [3, 2], [5, 5], [7, 1], [9, 2]] as number[][],
     },
     {
-        category: "Industrial & Technical Services",
-        shortDescription: "Precision services for technical requirements including engraving and digital printing.",
+        category: "Personalized Occasions",
+        title: "Weddings & Celebrations",
+        description: "Make every milestone memorable with diverse customized items for weddings, graduations, and parties.",
+        shortDescription: "Custom items for weddings and parties.",
+        cardImage: "card-occasions.png",
+        drawerImage: "drawer-occasions.png",
+        details: ["Wedding Invitations", "Graduation Sashes", "Ramadan Calendars", "Party Favor Boxes"],
         items: [
-            { title: "Laser Engraving", description: "Precision engraving on rigid materials (metal/plastic), capable of QR codes." },
-            { title: "Digital Document Printing", description: "High-quality production digital printing for reports and booklets." }
+            { title: "Invitations", description: "Laser cut and foil printed cards." },
+            { title: "Gift Boxes", description: "Theme-based favor boxes." },
+            { title: "Sashes & Badges", description: "Custom accessories for events." }
         ],
-        image: "laser.png",
         pattern: [[1, 3], [2, 0], [4, 5], [6, 1], [8, 4]] as number[][],
     },
+    {
+        category: "Printing Press",
+        title: "High Quality Printing",
+        description: "Reliable commercial printing for flyers, brochures, books, and large format banners.",
+        shortDescription: "Flyers, brochures, and banners.",
+        cardImage: "card-printing.png",
+        drawerImage: "drawer-printing.png",
+        details: ["Digital Printing", "Offset Printing", "Large Format", "Stickers"],
+        items: [
+            { title: "Digital Printing", description: "Urgent turnaround for short runs." },
+            { title: "Offset Printing", description: "Economical high-volume production." },
+            { title: "Large Format", description: "Banners, posters, and stickers." }
+        ],
+        pattern: [[0, 0], [2, 2], [4, 4], [6, 6], [8, 8]] as number[][],
+    }
 ];
 
 const Grid = ({

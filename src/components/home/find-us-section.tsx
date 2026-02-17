@@ -21,10 +21,10 @@ export function FindUsSection() {
                                 Visit Us
                             </h2>
                             <h2 className="mt-2 text-3xl font-bold tracking-tight text-neutral-900 sm:text-4xl">
-                                Locate Noor Al Khan
+                                Locate Al Tamimi
                             </h2>
                             <p className="mt-4 text-lg text-neutral-600 leading-relaxed">
-                                We are conveniently located in Umm Al Thatfa , Rolla, Sharjah. Drop by for a consultation or to pick up your orders.
+                                We are conveniently located in Majas 3, Sharjah, U.A.E. Drop by for a consultation or to pick up your orders.
                             </p>
                         </MotionSection>
 
@@ -35,13 +35,13 @@ export function FindUsSection() {
                                 </div>
                                 <div>
                                     <h4 className="font-semibold text-neutral-900">Our Location</h4>
-                                    <p className="text-neutral-600 mt-1">Umm Al Thatfa , Rolla, Sharjah</p>
+                                    <p className="text-neutral-600 mt-1">Majas 3, Sharjah, U.A.E</p>
                                 </div>
                             </div>
 
                             <div className="relative w-full h-[300px] md:h-[400px] rounded-3xl overflow-hidden border border-neutral-200 shadow-lg">
                                 <iframe
-                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3607.989953283103!2d55.38684991145593!3d25.353500825257754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f5a32fc43cb03%3A0x19304c61688759!2sNoor%20Al%20Khan%20Printing%20Service!5e1!3m2!1sen!2sae!4v17170748380782!5m2!1sen!2sae"
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28852.11944935359!2d55.3415602743164!3d25.320496399999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f5b9321296757%3A0x8e98c6fa492f66a3!2sAl%20Tamimi%20Designing!5e0!3m2!1sen!2sae!4v1771308621486!5m2!1sen!2sae"
                                     width="100%"
                                     height="100%"
                                     style={{ border: 0 }}

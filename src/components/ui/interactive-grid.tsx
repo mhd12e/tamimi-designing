@@ -45,22 +45,14 @@ const InteractiveGrid = ({
         // Mouse State
         const mouse = { x: -1000, y: -1000, prevX: -1000, prevY: -1000, active: false };
 
-        // Brand colors for the grid
-        // Gold accent: HSL(38, 97%, 47%) -> rgb(236, 172, 6)
-        // Deep Red primary: HSL(0, 73%, 42%) -> rgb(185, 29, 29)
         const getHeatColor = (t: number): string => {
-            // Light theme: white bg -> gold accent -> deep red at max heat
-            // t: 0.0 = transparent (white bg shows through)
-            // t: 0.3 = subtle gold tint
-            // t: 0.6 = warm gold
-            // t: 1.0 = deep red-gold
+            // New Brand: Pure Gold (#FFD700) -> rgb(255, 215, 0)
+            // No shift to red, just pure gold opacity.
 
-            // Gold: 236, 172, 6
-            // Red:  185, 29, 29
-            const r = Math.round(236 + (185 - 236) * t * t);  // Shifts from gold-R to red-R at high temp
-            const g = Math.round(172 * (1 - t * 0.7));          // Gold-G fades down
-            const b = Math.round(6 + 23 * t);                   // Slight blue shift
-            const a = Math.min(0.55, t * 0.7);                  // Max 55% opacity so text stays readable
+            const r = 255;
+            const g = 215;
+            const b = 0;
+            const a = Math.min(0.6, t * 0.8); // Slightly higher max opacity for better visibility
 
             return `rgba(${r}, ${g}, ${b}, ${a})`;
         };

@@ -13,27 +13,27 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://nooralkhan.com"),
+  metadataBase: new URL("https://altamimidesigning.com"), // Assuming domain update or placeholder
   title: {
-    default: "Noor Al Khan Printing | Premium Commercial Printing & Branding in UAE",
-    template: "%s | Noor Al Khan Printing"
+    default: "Al Tamimi Designing | Luxury Packaging & Event Fabrication UAE",
+    template: "%s | Al Tamimi Designing"
   },
-  description: "Leading commercial printing brand in Sharjah & Dubai. Specializing in luxury packaging, corporate stationery, large format branding, and urgent digital printing services since establishment.",
+  description: "Premier design and production house in Sharjah. Specializing in luxury rigid boxes, event stages, acrylic signage, and corporate gifting.",
   keywords: [
-    "printing services sharjah",
-    "commercial printing uae",
-    "luxury packaging dubai",
-    "corporate stationery printing",
-    "large format printing sharjah",
-    "digital printing uae",
-    "stickers and labels printing dubai",
-    "urgent rubber stamps sharjah",
-    "booklet printing sharjah",
-    "customized gifts uae"
+    "packaging design sharjah",
+    "event fabrication uae",
+    "laser cutting sharjah",
+    "luxury boxes manufacturing",
+    "acrylic signage dubai",
+    "corporate gifts uae",
+    "printing press majas 3",
+    "wedding invitations uae",
+    "custom fabrication uae",
+    "al tamimi designing"
   ],
-  authors: [{ name: "Noor Al Khan Printing" }],
-  creator: "Noor Al Khan Printing",
-  publisher: "Noor Al Khan Printing",
+  authors: [{ name: "Al Tamimi Designing" }],
+  creator: "Al Tamimi Designing",
+  publisher: "Al Tamimi Designing",
   formatDetection: {
     email: false,
     address: false,
@@ -42,21 +42,21 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_AE",
-    url: "https://nooralkhan.com",
-    title: "Noor Al Khan Printing | Premium Commercial Printing Services",
-    description: "Dubai and Sharjah's choice for luxury packaging, branding, and high-volume offset printing.",
-    siteName: "Noor Al Khan Printing",
+    url: "https://altamimidesigning.com",
+    title: "Al Tamimi Designing | Luxury Packaging & Events",
+    description: "Sharjah's premier destination for luxury packaging, event fabrication, and corporate branding.",
+    siteName: "Al Tamimi Designing",
     images: [{
       url: "/og-image.png", // Assuming we might want to add this, or use a placeholder
       width: 1200,
       height: 630,
-      alt: "Noor Al Khan Printing Showcase",
+      alt: "Al Tamimi Designing Showcase",
     }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Noor Al Khan Printing | Business Branding & Printing",
-    description: "Premium commercial printing services in Sharjah and Dubai. Quality packaging and stationery.",
+    title: "Al Tamimi Designing | Luxury Packaging & Events",
+    description: "Premium commercial printing and design services in Sharjah and Dubai.",
     images: ["/og-image.png"],
   },
   robots: {

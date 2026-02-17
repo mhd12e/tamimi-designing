@@ -17,7 +17,7 @@ export function GallerySection() {
                 <MotionSection className="text-center max-w-3xl mx-auto mb-16">
                     <div className="inline-flex items-center justify-center p-2 bg-white/80 backdrop-blur-sm border border-neutral-200 rounded-full mb-4 shadow-sm">
                         <Instagram className="h-5 w-5 text-brand-primary mr-2" />
-                        <span className="text-sm font-medium text-neutral-600">@nooralkhanprinting</span>
+                        <span className="text-sm font-medium text-neutral-600">@altamimidesign</span>
                     </div>
                     <h2 className="text-3xl font-bold tracking-tight text-neutral-900 sm:text-4xl mb-4">
                         Recent Works & Inspiration
@@ -26,10 +26,10 @@ export function GallerySection() {
                         Follow us on Instagram to see our latest projects, behind-the-scenes, and printing magic in action.
                     </p>
                     <Link
-                        href="https://www.instagram.com/nooralkhanprinting?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                        href="https://www.instagram.com/altamimidesign"
                         target="_blank"
                         rel="noopener noreferrer"
-                        aria-label="Follow Noor Al Khan Printing on Instagram"
+                        aria-label="Follow Al Tamimi Designing on Instagram"
                         className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-full shadow-lg shadow-brand-primary/20 text-white bg-brand-primary hover:bg-brand-primary/90 transition-all hover:scale-105"
                     >
                         Follow our Journey
@@ -45,7 +45,7 @@ export function GallerySection() {
                             className="group relative aspect-square overflow-hidden rounded-2xl bg-white shadow-sm border border-neutral-100 cursor-pointer hover:shadow-xl hover:shadow-brand-primary/10 transition-all duration-500"
                         >
                             <Link
-                                href="https://www.instagram.com/nooralkhanprinting?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                                href="https://www.instagram.com/altamimidesign"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 aria-label="View our work on Instagram"

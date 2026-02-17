@@ -35,7 +35,7 @@ export function ChatBot() {
             // Initial greeting
             const initialGreeting: Message[] = [{
                 role: "assistant",
-                content: "Hello! I'm Carl, your assistant for Noor Al Khan Printing. How can I help you today?",
+                content: "Hello! I'm Carl, your assistant for Al Tamimi Designing. How can I help you today?",
                 type: "choose",
                 options: ["Our Services", "Shop Location", "Get a Quote", "Contact Us", "Other"]
             }];
@@ -98,7 +98,7 @@ export function ChatBot() {
     const resetChat = () => {
         const initial: Message[] = [{
             role: "assistant",
-            content: "Hello! I'm Carl, your assistant for Noor Al Khan Printing. How can I help you today?",
+            content: "Hello! I'm Carl, your assistant for Al Tamimi Designing. How can I help you today?",
             type: "choose",
             options: ["Our Services", "Shop Location", "Get a Quote", "Contact Us", "Other"]
         }];
@@ -127,7 +127,7 @@ export function ChatBot() {
                                 </div>
                                 <div>
                                     <h3 className="font-bold leading-tight">Carl</h3>
-                                    <p className="text-[10px] text-white/70">Noor Al Khan Assistant</p>
+                                    <p className="text-[10px] text-white/70">Al Tamimi Assistant</p>
                                 </div>
                             </div>
                             <div className="flex items-center gap-2">

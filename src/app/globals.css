@@ -57,13 +57,13 @@
   --radius: 0.625rem;
 
   /* Brand Colors */
-  /* Deep Red / Burgundy */
-  --brand-primary: oklch(0.42 0.17 20);
-  /* Gold / Yellow metallic */
-  --brand-accent: oklch(0.82 0.16 85);
-  /* White / Off-white */
+  /* Gold / Mustard (Primary) */
+  --brand-primary: oklch(0.79 0.14 85);
+  /* Deep Black (Accent/Secondary) */
+  --brand-accent: oklch(0.20 0 0);
+  /* White (Background) */
   --brand-bg: oklch(1 0 0);
-  /* Muted Gray */
+  /* Light Gray (Muted) */
   --brand-muted: oklch(0.96 0 0);
 
   /* Mapping to Shadcn/Tailwind Base */

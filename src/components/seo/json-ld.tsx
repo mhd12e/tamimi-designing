@@ -6,14 +6,14 @@ export function JsonLd() {
     const businessData = {
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
-        "name": "Noor Al Khan Printing",
-        "image": "https://nooralkhan.com/og-image.png",
-        "@id": "https://nooralkhan.com",
-        "url": "https://nooralkhan.com",
-        "telephone": "+97165214371",
+        "name": "Al Tamimi Designing",
+        "image": "https://altamimidesigning.com/icon.png",
+        "@id": "https://altamimidesigning.com",
+        "url": "https://altamimidesigning.com",
+        "telephone": "+97165560227",
         "address": {
             "@type": "PostalAddress",
-            "streetAddress": "Umm Al Thatfa, Rolla",
+            "streetAddress": "Majas 3",
             "addressLocality": "Sharjah",
             "addressRegion": "Sharjah",
             "postalCode": "00000",
@@ -21,43 +21,43 @@ export function JsonLd() {
         },
         "geo": {
             "@type": "GeoCoordinates",
-            "latitude": 25.3571,
-            "longitude": 55.3911
+            "latitude": 25.3223, // Approximate for Majas 3
+            "longitude": 55.3764
         },
         "openingHoursSpecification": [
             {
                 "@type": "OpeningHoursSpecification",
                 "dayOfWeek": [
+                    "Saturday",
+                    "Sunday",
                     "Monday",
                     "Tuesday",
                     "Wednesday",
-                    "Thursday",
-                    "Saturday",
-                    "Sunday"
+                    "Thursday"
                 ],
                 "opens": "09:00",
                 "closes": "21:00"
             }
         ],
         "sameAs": [
-            "https://www.instagram.com/nooralkhanprinting"
+            "https://www.instagram.com/altamimidesign"
         ],
         "brand": {
             "@type": "Brand",
-            "name": "Noor Al Khan Printing"
+            "name": "Al Tamimi Designing"
         },
-        "description": "Premium commercial printing, packaging, and branding solutions in the UAE. Specialist in luxury perfume stickers, corporate stationery, and urgent printing services."
+        "description": "Premium design and production house in Sharjah. Specializing in luxury rigid boxes, event stages, acrylic signage, and corporate gifting."
     };
 
     const organizationData = {
         "@context": "https://schema.org",
         "@type": "Organization",
-        "name": "Noor Al Khan Printing",
-        "url": "https://nooralkhan.com",
-        "logo": "https://nooralkhan.com/logo.png",
+        "name": "Al Tamimi Designing",
+        "url": "https://altamimidesigning.com",
+        "logo": "https://altamimidesigning.com/icon.png",
         "contactPoint": {
             "@type": "ContactPoint",
-            "telephone": "+971-6-521-4371",
+            "telephone": "+971-6-556-0227",
             "contactType": "customer service",
             "areaServed": "AE",
             "availableLanguage": ["en", "ar"]

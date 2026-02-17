@@ -60,12 +60,9 @@ export function MynaHero() {
     }, [controls, isInView]);
 
     const titleWords = [
-        "THE",
-        "PRINTING",
-        "PARTNER",
-        "FOR",
-        "YOUR",
-        "BUSINESS",
+        "AL",
+        "TAMIMI",
+        "DESIGNING",
     ];
 
     return (
@@ -114,7 +111,7 @@ export function MynaHero() {
                                             delay: index * 0.15,
                                             duration: 0.6
                                         }}
-                                        className="inline-block mx-2 md:mx-4 my-1"
+                                        className="inline-block mx-2 md:mx-4 my-1 text-neutral-900"
                                     >
                                         {text}
                                     </motion.span>
@@ -125,10 +122,9 @@ export function MynaHero() {
                                 initial={{ opacity: 0, y: 20 }}
                                 animate={{ opacity: 1, y: 0 }}
                                 transition={{ delay: 1.2, duration: 0.6 }}
-                                className="mx-auto mt-8 max-w-2xl text-xl md:text-2xl text-muted-foreground font-medium"
+                                className="mx-auto mt-8 max-w-2xl text-xl md:text-2xl text-brand-primary font-medium"
                             >
-                                The Printing Partner for Your Business.<br />
-                                <span className="font-semibold text-brand-primary">Preservatives of All Arts</span>
+                                High Quality Printing - Packaging - Designing
                             </motion.p>
 
                             <motion.div
@@ -141,7 +137,7 @@ export function MynaHero() {
                                     href="/quote"
                                     className="inline-flex items-center gap-2 px-8 py-4 bg-brand-primary hover:bg-brand-primary/95 text-white font-bold rounded-full shadow-2xl shadow-brand-primary/30 transition-all hover:scale-105 active:scale-95 group"
                                 >
-                                    Get a Instant Quote
+                                    Get a Quote
                                     <ArrowRight className="h-5 w-5 group-hover:translate-x-1 transition-transform" />
                                 </a>
                             </motion.div>
@@ -179,7 +175,7 @@ export function MynaHero() {
                                 transition={{ delay: 2.5, duration: 1 }}
                                 className="mt-12 text-neutral-600 font-medium bg-white/50 px-6 py-3 rounded-2xl border border-neutral-100/50 backdrop-blur-sm"
                             >
-                                <p>Call: 06 521 4371 &bull; Mobile: 050 3629 568</p>
+                                <p>Call: +971 6 556 0227 &bull; Majas 3, Sharjah</p>
                             </motion.div>
                         </div>
                     </section>
