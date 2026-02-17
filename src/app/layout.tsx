@@ -48,18 +48,12 @@ export const metadata: Metadata = {
     title: "Al Tamimi Designing | Luxury Packaging & Events",
     description: "Sharjah's premier destination for luxury packaging, event fabrication, and corporate branding.",
     siteName: "Al Tamimi Designing",
-    images: [{
-      url: "/og-image.png",
-      width: 1200,
-      height: 630,
-      alt: "Al Tamimi Designing Showcase",
-    }],
+    siteName: "Al Tamimi Designing",
   },
   twitter: {
     card: "summary_large_image",
     title: "Al Tamimi Designing | Luxury Packaging & Events",
     description: "Premium commercial printing and design services in Sharjah and Dubai.",
-    images: ["/og-image.png"],
   },
   robots: {
     index: true,

@@ -7,7 +7,10 @@ export function JsonLd() {
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
         "name": "Al Tamimi Designing",
-        "image": "https://tamimidesigning.ae/icon.png",
+        "image": [
+            "https://tamimidesigning.ae/og-image.png",
+            "https://tamimidesigning.ae/icon.png"
+        ],
         "@id": "https://tamimidesigning.ae",
         "url": "https://tamimidesigning.ae",
         "telephone": "+97165560227",
