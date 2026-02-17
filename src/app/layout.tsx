@@ -13,7 +13,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://tamimidesigning.ae"),
+  metadataBase: new URL("https://tamimi.mhd12.dev"),
   title: {
     default: "Al Tamimi Designing | Luxury Packaging & Event Fabrication UAE",
     template: "%s | Al Tamimi Designing"
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_AE",
-    url: "https://tamimidesigning.ae",
+    url: "https://tamimi.mhd12.dev",
     title: "Al Tamimi Designing | Luxury Packaging & Events",
     description: "Sharjah's premier destination for luxury packaging, event fabrication, and corporate branding.",
     siteName: "Al Tamimi Designing",

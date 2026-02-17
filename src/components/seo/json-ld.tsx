@@ -8,11 +8,11 @@ export function JsonLd() {
         "@type": "LocalBusiness",
         "name": "Al Tamimi Designing",
         "image": [
-            "https://tamimidesigning.ae/og-image.png",
-            "https://tamimidesigning.ae/icon.png"
+            "https://tamimi.mhd12.dev/og-image.png",
+            "https://tamimi.mhd12.dev/icon.png"
         ],
-        "@id": "https://tamimidesigning.ae",
-        "url": "https://tamimidesigning.ae",
+        "@id": "https://tamimi.mhd12.dev",
+        "url": "https://tamimi.mhd12.dev",
         "telephone": "+97165560227",
         "address": {
             "@type": "PostalAddress",
@@ -56,8 +56,8 @@ export function JsonLd() {
         "@context": "https://schema.org",
         "@type": "Organization",
         "name": "Al Tamimi Designing",
-        "url": "https://tamimidesigning.ae",
-        "logo": "https://tamimidesigning.ae/icon.png",
+        "url": "https://tamimi.mhd12.dev",
+        "logo": "https://tamimi.mhd12.dev/icon.png",
         "contactPoint": {
             "@type": "ContactPoint",
             "telephone": "+971-6-556-0227",

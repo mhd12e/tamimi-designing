@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
             allow: '/',
             disallow: '/private/',
         },
-        sitemap: 'https://tamimidesigning.ae/sitemap.xml',
+        sitemap: 'https://tamimi.mhd12.dev/sitemap.xml',
     };
 }
